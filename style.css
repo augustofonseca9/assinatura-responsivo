@@ -1,0 +1,42 @@
+html {
+  background: url(https://images6.alphacoders.com/316/316370.jpg);
+}
+
+
+main {
+  background: url(images/backgorund.png) center/cover no-repeat;
+  font-family: 'Roboto';
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+ul {
+  list-style-type: none;
+  display: grid;
+  gap: 10px;
+  margin-left: 40px;
+  padding: 0;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0;
+  margin-left: 40px;
+}
+
+.img {
+  transition: 0.3s;
+}
+
+.img:hover {
+  transform: translateX(0) scale(0.8);
+  transition: 0.3s;
+}
